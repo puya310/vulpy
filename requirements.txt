@@ -7,3 +7,5 @@ PyJWT
 pyotp
 qrcode
 requests
+aiohttp>=3.10.11 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
